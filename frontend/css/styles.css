@@ -1,0 +1,78 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f9;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para la lista de tareas */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 80%;
+    max-width: 400px;
+}
+
+li {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilo para el botón de eliminar (la X) */
+.delete-button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    color: darkred;
+}
+
+/* Estilo para el mensaje de error de login */
+#loginError {
+    color: red;
+    margin-top: 10px;
+}
